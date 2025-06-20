@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahogany Brews</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+        integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cinzel:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Merienda:wght@300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="image/logo2.jpg">
+</head>
+
+<body>
+    <header>
+        <section class="time">
+            <i class="material-icons"
+                style="vertical-align: middle; margin-bottom: 5px; margin-right: 5px;">access_time</i>
+            <p id="time-p">Mon - Fri: 9:00 - 19:00/ Closed on Weekends</p>
+        </section>
+        <section class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </section>
+        <section class="login">
+            <span class="material-icons">
+                shopping_cart
+            </span>
+            <i class="fa-regular fa-heart"></i>
+            <button>LOGIN</button>
+        </section>
+    </header>
+    <nav class="navbar">
+        <figure class="logo">
+            <img src="image/logo.png">
+            <h3>Mahogany Brews</h3>
+        </figure>
+        <form>
+            <input type="text" placeholder="Search" class="search-bar"><button type="submit" class="button"><i
+                    class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+        </form>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <section class="hero-section">
+            <h3>Welcome to Mahogany Brews Cafe</h3>
+            <h2>Fresh coffee. Warm vibes. Good company.</h2>
+            <button><a href="#book">Book A table</a></button>
+            <button><a href="menu.html">View Menu</a></button>
+        </section>
+        <section class="about" id="about">
+            <div class="text">
+                <h1>Would You Like Delicious Coffee</h1>
+                <h3>About Us</h3>
+                <p>At Mahogany Brews, we believe in more than just great coffee — we create a space where people feel at
+                    home.
+                    Whether you're here for your morning brew, a quiet place to read, or a chat with friends, we’ve
+                    crafted
+                    every corner to feel cozy and welcoming.</p>
+
+                <p>We serve handpicked coffees, fresh bites, and a lot of love — all in one cup. Drop by, slow down, and
+                    enjoy
+                    the little things.</p>
+                <button>
+                    <h4>Discover More</h4>
+                </button>
+            </div>
+            <figure>
+                <img src="image/istockphoto-1128647043-612x612.jpg" id="img1">
+                <img src="image/stock-of-mix-a-cup-coffee-latte-more-motive-top-view-foodgraphy-generative-ai-photo.jpg"
+                    id="img2">
+            </figure>
+        </section>
+        <article class="booking" id="book">
+            <div class="inner-box">
+                <section class="b-text">
+                    <h3>Contact Us</h3>
+                    <h1>Book Your Table Now !</h1>
+                    <form action="/submit">
+                        <input type="text" placeholder="First Name" id="f-name"><br>
+                        <input type="email" placeholder="Email"> <input type="number" placeholder="Mobile No"><br>
+                        <input type="date" placeholder="Date" id="date"> <input type="datetime" placeholder="Time"><br>
+                        <button>BOOK TABLE NOW</button>
+                    </form>
+                </section>
+                <figure class="b-img">
+                    <img src="image/shawn-nmpW_WwwVSc-unsplash.jpg">
+                </figure>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <article class="foot-head">
+            <section class="f-head">
+                <img src="image/logo.png">
+                <h1>Mahogany Brews</h1>
+            </section>
+            <section class="f-contact">
+                <div class="icons"><i class="fa-solid fa-phone" style="margin-right: 0%;"></i> <b>+91-8764-329-650</b>
+                    <i class="fa-solid fa-envelope" style="margin-right: 0%;"></i> <b>mahogany@gmail.com</b>
+                </div>
+            </section>
+        </article>
+        <section class="copyright">
+            <p>&copy; Mahogany Brews 2025. All Rights Reserved</p>
+        </section>
+    </footer>
+</body>
+
+</html>
