@@ -1,50 +1,33 @@
-Mahogany Brews – Café Website
+# ☕ Mahogany Brews – Café Website
 
-Mahogany Brews is a clean and elegant café website created using pure HTML and CSS.  
-It presents a handcrafted menu layout, warm color palette, and mobile-friendly structure — ideal for portfolios, educational submissions, or frontend design practice.
-
----
-
-Live Demo
-
-Visit the live site here:  
-https://shreyadesai123.github.io/mahogany-brews
+**Mahogany Brews** is a clean and elegant café website created using **pure HTML and CSS**.  
+It presents a handcrafted menu layout, warm color palette, and mobile-friendly structure — ideal for **portfolios, academic submissions, or frontend design practice**.
 
 ---
 
-Tech Stack
+## 🌍 Live Demo
+👉 [Visit Mahogany Brews](https://shreyadesai123.github.io/Cafe-Website/)
 
+---
+
+## 🚀 Tech Stack
 - HTML5  
 - CSS3  
 
 ---
 
-Future Enhancements
-
-- Add a working contact form (using Formspree or mailto)
-- Implement category-based menu filtering (HTML/CSS or JS)
-- Add dark mode support
-- Build an “Order Now” section (UI only)
+## 👩‍💻 Author
+**Shreya Desai**  
+- GitHub: [@shreyadesai123](https://github.com/shreyadesai123)  
 
 ---
 
-Author
-
-Shreya Desai  
-GitHub: https://github.com/shreyadesai123
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork this repo and submit pull requests.  
 
 ---
 
-License
-
-This project is licensed under a **Custom Non-Commercial License**.
-
-You may:
-- View, use, and learn from this project for personal or academic purposes
-- Share it with proper credit to the author
-
-You may not:
-- Use it in commercial products or paid services
-- Sell, redistribute, or host this project for profit
-
-See the LICENSE file in the repository for complete terms.
+## 📜 License
+This project is licensed under the **MIT License** – you are free to use, modify, and distribute it, with attribution.  
+See the [LICENSE](LICENSE) file for full details.
